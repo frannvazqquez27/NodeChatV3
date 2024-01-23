@@ -2,9 +2,12 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
-  h2#numClientes
-  ul#mensajes
+  h8#numClientes 
+
+  .row
+    .col-12.col-md-6
+    p Welcome to #{title}
+    ul#mensajes
 
   div
     label Usuario
